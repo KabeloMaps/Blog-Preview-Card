@@ -1,0 +1,26 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "- [Overview] - [Screenshot] - [Links] - [My process] - [Built with] - [What I learned] - [Continued development]",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabeloMaps/Blog-Preview-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KabeloMaps/Blog-Preview-Card/issues"
+  },
+  "homepage": "https://github.com/KabeloMaps/Blog-Preview-Card#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
