@@ -12,6 +12,10 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./dist/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Blog preview card</title>
 
@@ -31,27 +35,31 @@
     class="bg-customYellow flex items-center justify-center min-h-screen"
   >
     <div
-      class="Main-component bg-white p-6 rounded-xl shadow-lg max-w-sm w-full"
+      class="Main-component border border-gray-950 bg-white p-6 rounded-xl shadow-lg max-w-sm w-full"
     >
       <div>
         <img src="./assets/images/illustration-article.svg" class="w-full" />
       </div>
 
-      <div class="bg-customYellow p-1 px-3 my-3 rounded inline-block">
+      <div
+        class="relative z-10 font-figtree bg-customYellow p-1 px-3 my-3 rounded inline-block"
+      >
         <h1 class="font-bold">Learning</h1>
       </div>
       <br />
       Published 21 Dec 2023
 
-      <h3 class="font-bold text-2xl py-4">HTML & CSS foundations</h3>
+      <h3 class="font-figtree font-bold text-2xl py-4">
+        HTML & CSS foundations
+      </h3>
       <p class="text-gray-500 pb-3">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
 
-      <div class="flex inline-flex items-center justify-between">
+      <div class="inline-flex items-center justify-between">
         <img src="./assets/images/image-avatar.webp" class="w-8" />
-        <h2 class="font-bold px-4">Greg Hooper</h2>
+        <h2 class="font-bold px-3 size-3">Greg Hooper</h2>
       </div>
 
       <div class="attribution py-2 pt-4">
